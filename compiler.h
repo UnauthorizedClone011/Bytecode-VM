@@ -5,6 +5,4 @@
 
 bool compile(const char *source, Chunk* chunk);
 
-void compile(const char *source);
-
 #endif // CLOX_COMPILER_H
