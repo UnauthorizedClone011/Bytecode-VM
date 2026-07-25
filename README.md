@@ -28,11 +28,15 @@ Strings, variables, and the inevitable nightmares of garbage collection are acti
 Drop into the REPL and feed it complex arithmetic, logical operations, and equality checks. The VM handles operator precedence and type-checking automatically.
 
 A few sample Clox codes from my end:
+
 > !(5 - 4 > 9) == true
 true
+
 > -((10 * 2) / 4)
 -5
+
 > nil == false
 false
+
 > 3 + true
 [line 1] Error: Operands must be numbers.
