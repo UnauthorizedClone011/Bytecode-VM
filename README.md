@@ -29,14 +29,11 @@ Drop into the REPL and feed it complex arithmetic, logical operations, and equal
 
 A few sample Clox codes from my end:
 
-> !(5 - 4 > 9) == true
+> !(5 - 4 > 9)
 true
 
 > -((10 * 2) / 4)
 -5
-
-> nil == false
-false
 
 > 3 + true
 [line 1] Error: Operands must be numbers.
